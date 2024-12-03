@@ -10,3 +10,6 @@ In this part of the project, I downloaded Security Onion which served as the int
     - RAM: 12 GB
     - Two extra network adapters one of them was mapped to vmnet4 which will be connecting to pfSense. The second network adapter was mapped to vmnet5 which will be the spam port.
 
+        ![adf](https://i.postimg.cc/vBn58BcH/image.png)
+
+
