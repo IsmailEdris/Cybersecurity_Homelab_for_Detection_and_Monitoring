@@ -1,6 +1,6 @@
 # Description
 
-In this step, I will be adding a Windows user to the Active Directory Domain. However, before that, I made the following configurations on the pfSense web interface.
+In this step, I will be adding a Windows user to the Active Directory Domain. The AD is going to be the victim network for this project. However, before that, I made the following configurations on the pfSense web interface.
 
 - Added the Domain Controller as a DNS server on pfSense
 
