@@ -1,5 +1,5 @@
 # Description
-In this part of the project, I downloaded Security Onion which served as the intrusion detection system (IDS) and intrusion prevention system (IPS).
+In this part of the project, I downloaded Security Onion which served as the intrusion detection system (IDS), intrusion prevention system (IPS), and log monitoring system. 
 
 ## Step 1: Creating the Security Onion VM
 
