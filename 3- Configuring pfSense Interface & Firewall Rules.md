@@ -1,5 +1,5 @@
 # Description
-In this step, I will be configuring pfSense & firewall rules on the pfSense firewall.
+In this step, I will be configuring pfSense & firewall rules on the pfSense firewall. pfSense served as the router and firewall in this project. 
 
 # Step 1: Configured pfSense 
 In this step, I logged into pfSense via the web interface on the Kali machine.
