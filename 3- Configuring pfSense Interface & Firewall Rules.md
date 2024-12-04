@@ -24,5 +24,13 @@ In this step, I changed the interface names to match the network. The following 
 ## Step 3: Configured bridges and firewall rules
 
 - Created a bridge between the "victim network" and the "span port" to connect the networks together.
+
 ![adf](https://github.com/user-attachments/assets/a779c7d4-15a7-41cf-90ce-8ba513cdf928)
+
+- Created a firewall that allows any TCP traffic to generate attacks from outsiders. This was done to analyze attacks and gain a deeper understanding of traffic analysis.
+
+![adf](https://i.postimg.cc/XYg6DvzC/image.png)
+
+
+
 
