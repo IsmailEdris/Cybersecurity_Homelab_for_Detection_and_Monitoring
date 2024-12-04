@@ -29,7 +29,7 @@ In this step, I will be adding a Windows user to the Active Directory Domain. Ho
 
 ![adfa](https://i.postimg.cc/DZ6RzbnQ/image.png)
 
-> Windows 10 VM is succuessfuly joined to the AD.
+> Windows 10 VM is successfully joined to the AD.
 
 ![afaf](https://i.postimg.cc/5yxYwDcd/image.png)
 
