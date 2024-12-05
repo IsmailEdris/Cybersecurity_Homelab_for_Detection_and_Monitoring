@@ -21,7 +21,24 @@ In this step, I created an index on Splunk. Indexes are blocks of storage where 
 
 In this step, I downloaded the Splunk Universal Forwarder on the Windows Domain Controller so the Windows DC can send log events to Splunk. 
 
-- Configured Splunk Universal Forwarder to forward logs to 192.168.183.136 (Splunk server)
+- Configured Splunk Universal Forwarder to forward logs to 192.168.183.136 (Splunk server) on port 8089
 
-![adfaf](https://i.postimg.cc/4d1QQt3Y/image.png)
+![adfaf](https://i.postimg.cc/WzCQ7MdG/image.png)
+
+## Step 4: Connecting the Domain Controller to Splunk
+
+In this step, I connected the Domain Controller to Splunk via the Splunk web interface on the Ubuntu Server. This allows the Domain Controller to send logs to the Splunk Server for analysis and monitoring. 
+
+The types of logs that the Domain Controller will be sending to Splunk is as follows:
+- Application Logs
+- ForwardedEvents Logs
+- Security Logs
+- Setup Logs
+- System Logs
+
+I also configured the logs to be forwarded to the "wineventlog" index, ensuring that all logs are centralized and consolidated in a single location for streamlined management and analysis.
+
+![adfaf](https://i.postimg.cc/KcfVvhQP/image.png)
+
+
 
